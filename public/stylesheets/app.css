@@ -1,6 +1,7 @@
 header {
     background-color: #244751;
     color: #E8fdff;
+    display: flex;
 }
 
 body {
@@ -17,6 +18,14 @@ main {
     margin-bottom: 10%;
 }
 
+.finstagram-post .user-info img:hover {
+    border-radius: 25%;
+}
+
+.finstagram-post .user-info img {
+    transition: 0.5s;
+}
+
 .finstagram-post .user-info img {
     border-radius: 50%;
 }
@@ -29,10 +38,6 @@ a.photo:hover {
     padding: 0.5em;
 }
 
-.finstagram-post .user-info img {
-    transition: 0.5s;
-}
-
-.finstagram-post .user-info img:hover {
-    border-radius: 25%;
+h1 {
+    margin-left: 1em;
 }
