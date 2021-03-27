@@ -1,0 +1,20 @@
+<header>
+  <a href="/"><h1>Finstagram</h1></a>
+</header>
+
+<%= @error_message if @error_message %>
+
+
+<form action="/login" method="POST" class="form-control">
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" class="input-box">
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="input-box">
+    </div>
+    <div class="form-group">
+        <button type="submit">Login</button>
+    </div>
+</form>
