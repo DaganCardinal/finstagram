@@ -139,3 +139,11 @@ form {
     margin-top: 1%;
     opacity: 0.5;
 }
+
+.nav-text {
+    transition: 0.3s;
+}
+
+.nav-text:hover {
+    color: antiquewhite;
+}
