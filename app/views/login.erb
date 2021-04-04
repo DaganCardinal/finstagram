@@ -1,7 +1,8 @@
 <h2>Login to Finstagram</h2>
 
-<%= @error_message if @error_message %>
-
+<% if @error_message do |message| %>
+    <div class="alert"><%= message %></div>
+<% end %>
 
 <form action="/login" method="POST" class="form-control">
     <div class="form-group">
